@@ -1,0 +1,224 @@
+*{
+        box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo-muni{
+    visibility: hidden;
+}
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.content-direction{
+    
+}
+.logotext {
+    width: 180px;
+}
+.tittle {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6em 0.5em;
+}
+
+.tittle h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.jembut a {
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 0.4em 0.7em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.jembut a:hover {
+    background-color: #ff9ce8;
+    transition: 0.7s ease-in;
+    color: rgba(0, 0, 0, 0.747);
+}
+.section1{
+    width: 100%;
+    /* background-color: #E5C3D1; */
+}
+.container2{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3em 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.container2 p{
+    margin: 0;
+}
+.container-hp{
+    margin: 2em 2em;
+}
+.sp1{
+    color: #EF767A;
+}
+.image-sakura{
+    width: 100%;
+    height: 40%;
+    border-bottom: 3px solid rgb(241, 116, 137) ;
+    border-top: 3px solid rgb(241, 116, 137);
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 1em;
+}
+.unita a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.unita a:hover{
+    border-bottom: 5px solid #FF90B3;
+    padding-bottom: 10px;
+}
+.unit{
+    text-align: center;
+    margin: 2em auto;
+}
+.unit-text-content{
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Roboto',sans-serif;
+    padding: 0 4px;
+}
+.p-content{
+    font-size: 1rem;
+}
+.content{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 80%;
+    height: 500px;
+    margin: 2em auto;
+    cursor: pointer;
+}
+.box1{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.box2{
+    box-shadow: 12px 12px 2px 1px #FAC8CD;
+}
+.box3{
+    box-shadow: 12px 12px 2px 1px #f3e97c;
+}
+.gambar-2{
+    width: 100%;
+    height: 40%;
+}
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-menu li {
+    margin: 0 10px;
+}
+
+.footer-menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (max-width: 320px) {
+    .footer-menu li {
+        margin: 5px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+        .logo-muni {
+            width: 15%;
+            visibility: visible;
+            position: fixed;
+            align-content:center;
+            overflow: visible;
+            bottom: 0;
+            left: 0;
+        }
+    
+        .logo-muni img {
+            width: 100px;
+        }
+    .container2{
+        width: 50%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .content{
+        width: 400px;
+    }
+    .content-direction{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content+.content {
+        margin-left: 1em;
+    }
+    .unit{
+        padding-right: 0.8em;
+    }
+    .unita a,.unit{
+        letter-spacing: 3px;
+    }
+}
+@media only screen and (max-width: 800px) {
+.p-content {
+        font-size: 0.8rem;
+    }
+}
