@@ -34,7 +34,7 @@ body{
     font-size: 1.5rem;
 }
 
-.jembut a {
+.jemb a {
     background-color: rgba(0, 0, 0, 0.795);
     padding: 0.4em 0.7em;
     text-decoration: none;
@@ -44,7 +44,7 @@ body{
     border-radius: 15px;
 }
 
-.jembut a:hover {
+.jemb a:hover {
     background-color: #ff9ce8;
     transition: 0.7s ease-in;
     color: rgba(0, 0, 0, 0.747);
